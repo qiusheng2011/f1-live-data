@@ -1174,6 +1174,21 @@
                     {
                         "matcher": {
                             "id": "byName",
+                            "options": "RIC"
+                        },
+                        "properties": [
+                            {
+                                "id": "color",
+                                "value": {
+                                    "fixedColor": "#5E8FAA",
+                                    "mode": "fixed"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "matcher": {
+                            "id": "byName",
                             "options": "DEV"
                         },
                         "properties": [
