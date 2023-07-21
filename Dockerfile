@@ -7,5 +7,5 @@ WORKDIR /app
 COPY setup.cfg /app/setup.cfg
 COPY pyproject.toml /app/pyproject.toml
 COPY src/ /app/src
-RUN pip install .
+RUN pip install  --index-url https://pypi.tuna.tsinghua.edu.cn/simple  .
 

@@ -14,7 +14,8 @@ D_LOOKUP = [[44, 'HAM', 'Mercedes', '#6CD3BF', 'SOLID'], [63, 'RUS', 'Mercedes',
             [22, 'TSU', 'AlphaTauri', '#5E8FAA', 'SOLID'], [21, 'DEV', 'AlphaTauri', '#5E8FAA', 'DOT'],
             [27, 'HUL', 'Haas F1 Team', '#B6BABD', 'SOLID'], [20, 'MAG', 'Haas F1 Team', '#B6BABD', 'DOT'],
             [24, 'ZHO', 'Alfa Romeo', '#C92D4B', 'DOT'], [77, 'BOT', 'Alfa Romeo', '#C92D4B', 'SOLID'],
-            [2, 'SAR', 'Williams', '#37BEDD', 'DOT'], [23, 'ALB', 'Williams', '#37BEDD', 'SOLID']]
+            [2, 'SAR', 'Williams', '#37BEDD', 'DOT'], [23, 'ALB', 'Williams', '#37BEDD', 'SOLID']
+            [3, "RIC", "AlphaTauri", '#YELLOW','SOLID'],]
 
 
 def driver_no_to_name(driver_no: str) -> str:
