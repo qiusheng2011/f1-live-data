@@ -26,3 +26,7 @@ services:
             - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=LoOFvHw1tUXrUZ8oUqaozmEjxxG9UNO5H5YfRI4cGu306xwQVu_KMNxRYRMrWbhdD886N2PuRgpo9v4v_58pHw==
         volumes:
             - './storage/influxdb:/var/lib/influxdb2'
+    data_rev_importer:
+        build: .
+        container_name: data_rev_importer
+        command: dataimporter process-live-session --influx-url http://influxdb:8086
